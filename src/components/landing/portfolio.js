@@ -6,12 +6,12 @@ export default function portfolio() {
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Few Projects list that done by self.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">               
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1" href="https://instafixx.com/" target="_blank">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="https://instafixx.com/" target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -26,7 +26,7 @@ export default function portfolio() {
                     <div class="col-lg-4 col-sm-6 mb-4">
                    
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2" href="http://noorrxlens.com/"
+                            <a class="portfolio-link" data-bs-toggle="modal"  href="http://noorrxlens.com/"
                              target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -42,8 +42,8 @@ export default function portfolio() {
                     <div class="col-lg-4 col-sm-6 mb-4">
                      
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3"
-                             href="https://letsassist.biz/dmd/admin/login" target="_blank">
+                            <a class="portfolio-link" data-bs-toggle="modal" 
+                             href="https://drivingmissdaisy.co.uk" target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -58,7 +58,7 @@ export default function portfolio() {
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                        
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4"
+                            <a class="portfolio-link" data-bs-toggle="modal" 
                             href="https://www.biltrax.com/" target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -74,7 +74,7 @@ export default function portfolio() {
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                        
                         <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5"
+                        <a class="portfolio-link" data-bs-toggle="modal" 
                             href="https://dev-stylevapor.netlify.app/" target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -90,15 +90,15 @@ export default function portfolio() {
                     <div class="col-lg-4 col-sm-6">
                         
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="https://sirfcoffee.com/"  target="_blank">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid portfolio-img" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid portfolio-img sirf-coffee-img" src="assets/img/portfolio/sirf-coffee.JPG" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">Sirf-Coffee</div>
+                                <div class="portfolio-caption-subheading text-muted">Online Dating App</div>
                             </div>
                         </div>
                     </div>

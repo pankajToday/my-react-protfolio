@@ -13,7 +13,7 @@ export const PostItem = ({ post }) => {
         <div class="col-lg-12 col-sm-12 mb-12">
           <div class="portfolio-item">
             <a class="portfolio-link" href="#">
-              <img class="img-fluid" src="images/thumbnail-3.jpg" alt="..." />
+              <img class="img-fluid" src={post.feature_img} alt="..." />
             </a>
           </div>
         </div>

@@ -5,7 +5,7 @@ import NavCompo from './components/landing/nav';
 import LendingHeader from './components/landing/header';
 import ServicesCom from './components/landing/services';
 import PortfolioCom from './components/landing/portfolio';
-import AboutUsCom from './components/landing/about';
+//import AboutUsCom from './components/landing/about';
 import ContactCom from './components/landing/contact';
 import FooterCom from './components/landing/footer';
 import PageModelCom from './components/landing/page_model';

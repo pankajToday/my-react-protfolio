@@ -5,6 +5,7 @@ import NavCompo from './components/landing/nav';
 import LendingHeader from './components/landing/header';
 import ServicesCom from './components/landing/services';
 import PortfolioCom from './components/landing/portfolio';
+import IntroCom from './components/landing/intro.js';
 //import AboutUsCom from './components/landing/about';
 import ContactCom from './components/landing/contact';
 import FooterCom from './components/landing/footer';
@@ -72,6 +73,7 @@ function App() {
       <div id="page-top">
         <NavCompo title={authorName} searchBar="false"/>
         <LendingHeader />
+        <IntroCom />
         <ServicesCom />
         <PostsCom  dataSet={blogsPost}/>
         <PortfolioCom />

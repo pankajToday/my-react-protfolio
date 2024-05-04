@@ -13,25 +13,11 @@ export default function contact() {
                     </div>
                     <div className="row text-center">
                         <div className="col-md-12">
-                            <p className="text-muted text-justify">
-                                Hello, my name is Pankaj Kumar, and I live in Dhanbad, Jharkhand, India. I have 7 years
-                                of experience as a backend developer and can also work as a full-stack developer.
-                                I graduated with a BCA from IGNOU and have a PHP Diploma certificate. My technical
-                                skills include HTML, CSS, jQuery, PHP, MySQL, Git, and REST-API. I have a very soft
-                                nature and good problem-solving skills, and I learn from problems.
-                            </p>
-                            <p className="text-muted text-justify">
-                                I have done many projects. I was workig as Sr. Software Developer in Designs.Code.
-                                that was my last company. Where my responsbility was to develope the company project ,
-                                discuss with client to understand the besiness logics and suggest best possible way to
-                                acchive that client goal. <br /><br />
+						  <p className="text-muted text-justify">Hello,	I'm Pankaj Kumar, and I'm from Dhanbad in Jharkhand, India. I can work as a full-stack developer and have 7 years of expertise as a backend developer. I have a PHP diploma certificate in addition to my BCA from IGNOU. REST-API, HTML, CSS, jQuery, PHP, MySQL, and Git are among my technical proficiencies. I'm very sensitive, have good problem-solving abilities, and take lessons from my mistakes.
+						   </p>
+							<p className="text-muted text-justify">I've worked on numerous projects. My last job was at Designs.Code, where I was a senior software developer. My duties included creating the company project, talking with the client about it to grasp the business logics, and recommending the best course of action to accomplish the client's objective.I managed two additional backend engineers and multiple frontend devs in addition to myself in order to oversee all tasks. The driving principle of the work culture was comprehending business logic, dissecting it into achievable tasks, and assigning them. so that the project can be completed accurately and efficiently within the designated time frame.
 
-                                In order to oversee all duties, I was in charge of a team that included two other backend
-                                developers and several frontend developers. Understanding business logic, breaking it
-                                down into manageable tasks, and distributing them was the guiding philosophy of the work
-                                culture. so the project can be finished precisely and effectively in the allotted period.
-
-                            </p>
+							 </p>
                         </div>
                     </div>
                 </div>

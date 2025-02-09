@@ -1,7 +1,7 @@
-import React from 'react'
+
+import React, { useRef } from 'react'
 import axios from "axios";
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
+
 
 /*function semdMail() {
     Email.send({
@@ -15,9 +15,8 @@ import axios from "axios";
     );
 }*/
 
-function submitMail() {
-        alert(3);
-}
+function semdMail(){alert(6)}
+
 
 export default function contact() {
     return (
@@ -27,20 +26,41 @@ export default function contact() {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Contact Us</h2>
-
                     </div>
-                    {/* <!-- * * * * * * * * * * * * * * *-->
-    <!-- * * SB Forms Contact Form * *-->
-    <!-- * * * * * * * * * * * * * * *-->
-    <!-- This form is pre-integrated with SB Forms.-->
-    <!-- To make this form functional, sign up at-->
-    <!-- https://startbootstrap.com/solution/contact-forms-->
-    <!-- to get an API token!--> */}
+                
+                        <div className="row align-items-stretch mb-5">
+                            <div className="col-md-6 text-white">
+                                Address : Nutandhih ,Saraidhela ,Dhanbad ,JH -826005
+                            </div>
+                            <div className="col-md-6 text-white">
+                               Mobile : 9031251290
+                            </div>
+                            <div className="col-md-6 text-white">
+                               Email : p1608088@gmail.com
+                            </div>
+                            <div className="col-md-6 text-white">
+                            LinkedIn : <a href="https://www.linkedin.com/in/pankaj-kumar-cool" target='_blank'>Pankaj Kumar Cool</a>
+                            </div>
+                            <div className="col-md-6 text-white">
+                            Stack overflow : <a href="https://stackoverflow.com/users/4335210/pankaj?tab=profile" target='_blank'>Pankaj Kumar</a>
+                            </div>
+                            <div className="col-md-6 text-white">
+                            Medium : <a href="https://ankuprsdpkp.medium.com/" target='_blank'>Pankaj Kumar</a>
+                            </div>
+                            <div className="col-md-6 text-white">
+                            Git-Lab : <a href="https://github.com/pankajToday" target='_blank'>Pankaj Today</a>
+                            </div>
+                            <div className="col-md-6 text-white">
+                             Kirana App (under development): <a href="https://kirana-mobile-app.netlify.app/" target='_blank'>Easy Kirana Book -Mobile App</a>
+                            </div>
+                        </div>
+
+                       
 
 
 
 
-                    <form id="contactForm" action="https://formsubmit.co/ankuprsdpkp@gmail.com" method="POST" >
+                    {/* <form id="contactForm" action="https://formsubmit.co/ankuprsdpkp@gmail.com" method="POST" >
                     <input  className="form-control" type="hidden" name="_subject" value="A New Query From My REACT Portfoliy Site" />
                     <input type="hidden" name="_autoresponse" value="Thanks you for your time. We will try to reply you ASP." />
 
@@ -71,26 +91,18 @@ export default function contact() {
                                 </div>
                             </div>
                         </div>
-                        {/* <!-- Submit success message-->
-        <!---->
-        <!-- This is what your users will see when the form-->
-        <!-- has successfully submitted--> */}
+                       
                         <div className="d-none" id="submitSuccessMessage">
                             <div className="text-center text-white mb-3">
                                 <div className="fw-bolder">Form submission successful!</div>
-                                {/* To activate this form, sign up at */}
-                                <br />
-                                {/* <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> */}
+                               
                             </div>
                         </div>
-                        {/* <!-- Submit error message-->
-        <!---->
-        <!-- This is what your users will see when there is-->
-        <!-- an error submitting the form--> */}
+                       
                         <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
 
-                        <div className="text-center"><button onClick='submitMail()' className="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                    </form>
+                        <div className="text-center"><button onClick='semdMail()' className="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    </form> */}
                 </div>
             </section>
 

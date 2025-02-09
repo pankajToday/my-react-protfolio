@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import React from "react";
 
 import NavCompo from './components/landing/nav';
@@ -6,7 +6,7 @@ import LendingHeader from './components/landing/header';
 import ServicesCom from './components/landing/services';
 import PortfolioCom from './components/landing/portfolio';
 import IntroCom from './components/landing/intro.js';
-//import AboutUsCom from './components/landing/about';
+import AboutUsCom from './components/landing/about';
 import ContactCom from './components/landing/contact';
 import FooterCom from './components/landing/footer';
 import PageModelCom from './components/landing/page_model';
@@ -67,6 +67,9 @@ function App() {
       'delete_permission':false,
     }
   ];
+
+
+
   return (
     <div className="App">
 
@@ -74,20 +77,20 @@ function App() {
         <NavCompo title={authorName} searchBar="false"/>
         <LendingHeader />
         <IntroCom />
+        <AboutUsCom />
         <ServicesCom />
-        <PostsCom  dataSet={blogsPost}/>
+        {/* <PostsCom  dataSet={blogsPost}/> */}
         <PortfolioCom />
-        {/* <AboutUsCom /> */}
         <ContactCom />
         <FooterCom />
         <PageModelCom />
 
-        {/* <!-- Bootstrap core JS--> */}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        {/* <!-- Core theme JS--> */}
-        <script src="js/scripts.js"></script>
+        
 
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+        {/* <!-- Core theme JS--> */}
+       
+        
       </div>
 
     </div>

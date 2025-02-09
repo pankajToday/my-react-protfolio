@@ -7,47 +7,67 @@ export default function about() {
                 <div class="container">
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">About</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                     </div>
+                    <h3 class="text-start text-word mb-2">Emploment History</h3>
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h5>06-2016 - 04-2018</h5>
+                                    <h4 class="subheading">IGEN INFOTECH</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted">I worked for this company as a developer.
+                                     This was the beginning of my IT journey.  I've started it before, but it was the first in the company.  
+                                     </p>
+                                </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h5>05-2018 - 02-2011</h5>
+                                    <h4 class="subheading">LAMDA INFOTECH</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body">
+                                    <p>
+                                    I worked at Landa Infotech as a developer as well. I work on two to five projects. All of them are 
+                                    education-based ERP solutions. such as live school bus tracking, college ERP, and school management,
+                                     among others. Because Landa Infotech was a product-based business, it was enjoyable, and the staff
+                                      treated one another like family.
+                                    </p>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2015</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h5>04-2020 - 04-2024</h5>
+                                    <h4 class="subheading">DESIGNS CODE</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted">
+                                One of the coolest companies that I've ever worked for is Designs Code. A junior developer was promoted to
+                                 senior software engineer here. I have to deal with clients in the UK and the UAE so that I can learn more. 
+                                 as well as the opportunity to lead the team and hone communication skills. I will never leave DC if the
+                                  company continues to operate.
+                                 </p></div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2020</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>04-2020 - Present</h4>
+                                    <h4 class="subheading">Noetic IT Services</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted">
+                                I get to play around with technology thanks to NoeticIT. I am collecting new information on the IT industry. As a senior developer, 
+                                I made decisions on what and how crucial project development is. I acquired new abilities in my line of work that benefited
+                                 my career. I gained some self-assurance that inspires me to think more clearly and create my own project that will be implemented soon.
+                                    </p>
+                                </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
@@ -64,8 +84,9 @@ export default function about() {
                     </ul>
                 </div>
             </section>
+			
            
-            <section class="page-section bg-light" id="team">
+            {/* <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
@@ -107,7 +128,7 @@ export default function about() {
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
-        </section>
+            </section>
 
         <div class="py-5">
             <div class="container">
@@ -126,7 +147,7 @@ export default function about() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
         </>
